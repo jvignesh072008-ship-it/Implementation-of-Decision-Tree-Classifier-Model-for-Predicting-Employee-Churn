@@ -8,6 +8,7 @@ To write a program to implement the Decision Tree Classifier Model for Predictin
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+
 1. Data Loading and Preprocessing: The program begins by loading the employee_churn_dataset.csv file into a pandas DataFrame. It then performs data cleaning by dropping the 'ID' column if present and creates a new target variable 'Attrition' based on 'Tenure' and 'Salary' conditions. Categorical features like 'Gender', 'Education Level', 'Marital Status', 'Job Role', 'Department', and 'Work Location' are then numerically encoded using LabelEncoder.
 
 2.Data Splitting: The preprocessed data is divided into features (X) and the target variable (y). The dataset is then split into training and testing sets (X_train, X_test, y_train, y_test) using train_test_split with a 80/20 ratio and a fixed random_state for reproducibility.
